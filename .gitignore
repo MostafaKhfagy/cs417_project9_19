@@ -1,2 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+data/
+*.h5
+*.hdf5
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results (except empty placeholders)
+results/*
+!results/accuracy_curve.png
+!results/loss_curve.png
+!results/confusion_matrix.png
+!results/sample_predictions.png
+!results/classification_report.txt
 dataset/
-preprocessed_datased/
+preprocessed_dataset/
